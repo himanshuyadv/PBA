@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#39000000"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customDialog"
+        android:layout_margin="20dp" >
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_info_details"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_below="@+id/iv1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facing_issues"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv2"
+            android:layout_below="@+id/tv1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/write_to_us_on_review_section_if_you_are_facing_any_problem_and_also_give_feedback_or_rating_if_you_love_this_app"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView
+            android:id="@+id/iv_telegramlink"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/telegram"
+            android:layout_below="@id/tv2"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telegram link"
+            android:layout_below="@id/iv_telegramlink"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

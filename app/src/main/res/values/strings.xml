@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Power Button Actions</string>
+    <string name="splashPrompt">enable Accessibility Settings to use this App</string>
+    <string name="enable">Take me to Settings Screen</string>
+    <string name="prominent_disclosure_text">This App uses Accessibility permission to Perform Following Actions\n\n Actions :\n 1. Open Power Menu\n 2. Turn Off the Screen\n 3. Volume Buttons for Screen Locking\n\nfill the checkbox below to accept the Accessibility Permission from Settings</string>
+    <string name="write_to_us_on_review_section_if_you_are_facing_any_problem_and_also_give_feedback_or_rating_if_you_love_this_app">if you are facing any issue then write us on telegram group and if you really found this app helpful for you then please rate this app on play store and also provide feedback</string>
+    <string name="facing_issues">facing issues ?</string>
+    <string name="accessibility_service_description">this app uses accessibility permission to turn off phone screen and show power menu</string>
+</resources>
